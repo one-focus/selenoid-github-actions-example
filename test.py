@@ -23,4 +23,4 @@ assert driver.title == 'Free Porn Videos & Sex Tube Movies at xHamster'
 MENU_CATEGORIES = (By.CLASS_NAME, 'categories-list')
 WebDriverWait(driver, 10).until(ec.invisibility_of_element_located(MENU_CATEGORIES),
                                 message="Categories are visible")
-# driver.quit()
+driver.quit()
